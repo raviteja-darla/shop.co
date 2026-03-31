@@ -1,0 +1,63 @@
+@import url('./../../index.css');
+
+.hero-section {
+    background: #F2F0F1;
+    height: 80vh;
+    overflow: hidden;
+}
+.hero-section .container-wrapper {
+    height: 100%;
+}
+.hero-sec-col-1 .heading {
+    font-size: clamp(3rem, 3.1vw, 4rem);
+    line-height: 1.2;
+    font-weight: 900;
+    font-family: Montserrat;
+}
+.hero-sec-col-1 .sec-para{
+    font-size: clamp(0.8125rem, 0.3vw,1rem);
+    line-height: 1.2;
+    color: #00000099;
+}
+.score-card .card-name{
+    color: #00000099;
+    font-weight: 700;
+}
+.hero-sec-col-2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.brandsShowcase {
+    background: black;
+}
+
+.new-arri-sec {
+
+}
+
+.new-arri-sec h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: clamp(3rem, 3.1vw, 4rem);
+}
+
+
+
+@media (max-width: 768px){
+    .hero-section {
+        height: auto;
+        overflow: hidden;
+    }
+    .hero-section .container-wrapper {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 400px){
+    .hero-sec-col-1 .heading, 
+    .new-arri-sec h2 {
+        font-size: 30px;
+    }
+
+}

@@ -1,0 +1,50 @@
+@import url('../../index.css');
+
+.footer-wrapper {
+    background: #F0F0F0;
+}
+
+.subscription {
+    width: 85%;
+    margin: auto;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+}
+
+.subscription .qute{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: clamp(24px, 2.5vw, 40px);
+    white-space: nowrap;
+}
+.footer_links {
+    padding-top: 150px;
+}
+
+.footer_links .ftr-lk-link,
+.ftr-Lks-col-1,
+.cpyrt-col-1{
+    font-size: 14px;
+    color: rgb(122, 121, 121);
+}
+
+.scl_mmid_links {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(202, 202, 202);
+}
+
+@media (max-width: 400px){
+    .subscription .qute{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 700px){
+    .footer_links {
+        padding-top: 170px;
+    }
+}
