@@ -1,0 +1,22 @@
+.thumbnailCard {
+    transition: 0.3s ease-in;
+}
+.thumbnailCard .tmbnlCd-cardName{
+    font-weight: 555;
+}
+.thumbnailCard .tmbnlCd-pricing{
+    font-weight: 600;
+}
+.tmbnlCd-pricing .tmbnlCd-actprice {
+    color: grey;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.thumbnailCard .tmbnlCd-rating {
+    font-weight: 500;
+}
+
+.thumbnailCard:hover img{
+    transform: scale(1.2);
+    transition: 0.3s ease-in;
+}

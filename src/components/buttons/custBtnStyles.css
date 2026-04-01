@@ -1,0 +1,10 @@
+.cust-btn {
+    transition: 0.5s ease-in-out;
+}
+.cust-btn:hover {
+    background: black;
+    border-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}

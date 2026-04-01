@@ -8,7 +8,7 @@
 .hero-section .container-wrapper {
     height: 100%;
 }
-.hero-sec-col-1 .heading {
+.main-heading {
     font-size: clamp(3rem, 3.1vw, 4rem);
     line-height: 1.2;
     font-weight: 900;
@@ -29,20 +29,16 @@
     object-fit: cover;
     object-position: top;
 }
+
 .brandsShowcase {
     background: black;
 }
 
-.new-arri-sec {
-
-}
-
-.new-arri-sec h2 {
+.second-heading {
     font-family: Montserrat;
     font-weight: 900;
-    font-size: clamp(3rem, 3.1vw, 4rem);
+    font-size: clamp(2.5rem, 3.1vw, 4rem);
 }
-
 
 
 @media (max-width: 768px){
@@ -54,10 +50,8 @@
         margin-top: 30px;
     }
 }
-@media (max-width: 400px){
-    .hero-sec-col-1 .heading, 
-    .new-arri-sec h2 {
+@media (max-width: 400px) {
+    .main-heading, .second-heading {
         font-size: 30px;
     }
-
 }

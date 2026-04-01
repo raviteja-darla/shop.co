@@ -1,14 +1,12 @@
 import React from 'react'
 import HeroSecImg from './../../assets/Home-page/hero-section.png'
 import './homePage-styles.css'
-import BrandsShowcase from './BrandsShowcase'
-
 const Hero_section = () => {
     return (
         <div className='hero-section'>
             <div className="container-wrapper flex flex-col md:flex-row">
                 <div className="hero-sec-col-1 w-full md:w-[50] flex flex-col justify-center gap-5">
-                    <p className="heading">
+                    <p className="main-heading">
                         FIND CLOTHES <br /> THAT MATCHES <br />YOUR STYLE
                     </p>
                     <p className="sec-para">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>

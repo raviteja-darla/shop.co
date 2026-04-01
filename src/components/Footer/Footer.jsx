@@ -7,13 +7,11 @@ import CopyWrite from './CopyWrite'
 
 const Footer = () => {
     return (
-        <div className='footer-wrapper'>
+        <div className='footer-wrapper mt-[170px]'>
             <div className="container-wrapper relative">
-                
                 <Subscription />
                 <FooterLinks />
                 <CopyWrite />
-
             </div>
         </div>
     )
